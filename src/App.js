@@ -14,7 +14,6 @@ class App extends React.Component {
   }
 
   handleChange(id) {
-    console.log("Ass",id)
     this.setState(prevState => {
       const updatedtodos = prevState.todos.map(todoo => {
         if(todoo.id === id){
