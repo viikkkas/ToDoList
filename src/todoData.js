@@ -1,7 +1,7 @@
 const todoData = [
     {
         id:1,
-        text: "Take out the trash",
+        text: "Take out trash",
         completed: true
     },
     {
